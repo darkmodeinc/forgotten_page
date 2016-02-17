@@ -1,0 +1,77 @@
+/*CSS for content pages */
+/* This Style sheet defines the format for all content pages */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.main {
+ 	position: relative;
+  	left: 50px;
+  	width: 500px;
+  	margin-left: 150px;
+}
+body
+{
+	background-image: url(background.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#EFF2F7;
+	font-family:"Courier";
+}
+h1
+{
+	color:black;
+	text-align:center;
+	font-family:"Courier";
+}
+p
+{
+	font-family:"Courier";
+	font-size: 20px;
+}
+
+/* Side Navigation Menu */
+.sidebar {
+	position: absolute;
+	background-color: #7DB0C2;
+	width: 150px;
+  	margin: 0 auto; 
+  	height: 1500px;
+  	left: 0px;
+}
+.sidenav ul{
+	list-style-type: none;
+	text-align: center;
+
+}
+/* Bottom Footer */
+.bottom{
+	border-style: solid;
+	color: white;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+}
+
+.footer {
+	font-size: 15px;
+
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer li{
+	display: inline;
+}
+
+.img_header img {
+	width: 350px;
+}
+
+.img_map img {
+	width: 500px;
+}
